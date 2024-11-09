@@ -3,7 +3,13 @@ from moviepy.editor import VideoFileClip
 import tempfile
 import os
 
-st.title("Audio Extractor from Video")
+st.markdown("""
+    <h1 style="text-align:center;">
+        Audio Extractor from Video 
+        <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExamN1OXkycm5kZDdqcjhjYzlqOXQxbzB3OThmejhmbGIzMHZ4cDRkdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/uw0wMe62pCn0uqmFnu/giphy.gif" width="100"/>
+    </h1>
+""", unsafe_allow_html=True)
+
 
 # Upload video file
 video_file = st.file_uploader("Upload Video File", type=["mp4", "mkv", "mov", "avi"])
