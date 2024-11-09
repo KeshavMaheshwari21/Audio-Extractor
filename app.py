@@ -5,8 +5,7 @@ import os
 
 st.markdown("""
     <h1 style="text-align:center;">
-        Audio Extractor from Video 
-        <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExamN1OXkycm5kZDdqcjhjYzlqOXQxbzB3OThmejhmbGIzMHZ4cDRkdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/uw0wMe62pCn0uqmFnu/giphy.gif" width="100"/>
+        Audio Extractor from Video 🎶
     </h1>
 """, unsafe_allow_html=True)
 
